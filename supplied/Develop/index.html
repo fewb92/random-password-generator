@@ -24,9 +24,36 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
+        <div class="parametersContainer">
+          <div>
+            <label for="characterAmountNumber">Number of Characters</label>
+            <input id="characterAmountRange" type="range" min="8" max="128" value="8" >
+            <input id="characterAmountNumber" type="number" min="8" max="128" value="8">
+          </div>
+
+          <br>
+          <label for="includeNumbers">Include Numbers</label>
+          <input id="includeNumbers" type="checkbox"> 
+
+          <label for="includeLowercase">Include Lowercase Letters</label>
+          <input id="includeLowercase" type="checkbox">
+
+          <label for="includeUppercase">Include Uppercase Letters</label>
+          <input id="includeUppercase" type="checkbox">
+
+          <label for="includeSpecial">Include Special Characters</label>
+          <input id="includeSpecial" type="checkbox">
         </div>
+        <div class="card-footer">
+          <button type="submit" id="generate" class="btn">Generate Password</button>
+        </div>
+
+
+
+
+
+
+
       </div>
     </div>
     <script src="script.js"></script>
