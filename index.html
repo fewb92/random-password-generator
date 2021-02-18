@@ -24,30 +24,33 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
-        <div class="parametersContainer">
-          <div>
-            <label for="characterAmountNumber">Number of Characters</label>
-            <input id="characterAmountRange" type="range" min="8" max="128" value="8">
-            <input id="characterAmountNumber" type="number" min="8" max="128" value="8">
-          </div>
+        <form id="passwordGenerator">
+            <div class="parametersContainer">
+            <div class="characterAmountContainer">
+                <label for="characterAmountNumber">Number of Characters</label>
+                <input id="characterAmountRange" type="range" min="8" max="128" value="8">
+                <input class="numberInput" id="characterAmountNumber" type="number" min="8" max="128" value="8">
+            </div>
 
-          <br>
-          <label for="includeNumbers">Include Numbers</label>
-          <input id="includeNumbers" type="checkbox"> 
+            <br>
+            <label for="includeNumbers">Include Numbers</label>
+            <input id="includeNumbers" type="checkbox"> 
 
-          <label for="includeLowercase">Include Lowercase Letters</label>
-          <input id="includeLowercase" type="checkbox">
+            <label for="includeLowercase">Include Lowercase Letters</label>
+            <input id="includeLowercase" type="checkbox">
 
-          <label for="includeUppercase">Include Uppercase Letters</label>
-          <input id="includeUppercase" type="checkbox">
+            <label for="includeUppercase">Include Uppercase Letters</label>
+            <input id="includeUppercase" type="checkbox">
 
-          <label for="includeSpecial">Include Special Characters</label>
-          <input id="includeSpecial" type="checkbox">
-        </div>
-        <div class="card-footer">
-          <button type="submit" id="generate" class="btn">Generate Password</button>
-        </div>
-        
+            <label for="includeSpecial">Include Special Characters</label>
+            <input id="includeSpecial" type="checkbox">
+            </div>
+            
+            <div class="card-footer">
+            <button type="submit" id="generate" class="btn">Generate Password</button>
+            </div>
+        </form>
+
       </div>
     </div>
     <script src="../random-password-generator/supplied/Develop/script.js"></script>

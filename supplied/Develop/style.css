@@ -127,6 +127,15 @@ button[disabled] {
   align-items: center;
 }
 
+.characterAmountContainer {
+  display: flex;
+  align-items: center;
+}
+
+.numberInput {
+  width: 3rem;
+}
+
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
