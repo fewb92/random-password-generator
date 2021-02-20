@@ -97,7 +97,7 @@ button[disabled] {
   background: #c0c7cf;
 }
 
-#password {
+#passwordDisplay {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -143,7 +143,7 @@ button[disabled] {
     padding: 10px 15px;
   }
 
-  #password {
+  #passwordDisplay {
     font-size: 1rem;
   }
 }

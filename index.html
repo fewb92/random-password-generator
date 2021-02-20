@@ -19,7 +19,7 @@
         <div class="card-body">
           <textarea
             readonly
-            id="password"
+            id="passwordDisplay"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
@@ -37,7 +37,7 @@
             <input id="includeNumbers" type="checkbox"> 
 
             <label for="includeLowercase">Include Lowercase Letters</label>
-            <input id="includeLowercase" type="checkbox">
+            <input id="includeLowercase" type="checkbox" checked>
 
             <label for="includeUppercase">Include Uppercase Letters</label>
             <input id="includeUppercase" type="checkbox">
@@ -47,7 +47,7 @@
             </div>
             
             <div class="card-footer">
-            <button type="submit" id="generate" class="btn">Generate Password</button>
+            <button type="submit" id="passwordGenerator" class="btn">Generate Password</button>
             </div>
         </form>
 
